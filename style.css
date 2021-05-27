@@ -51,7 +51,7 @@ body {
 }
 
 .text-tittle-projects {
-    font-size: large;
+    font-size: 1rem;
     padding: 1.5rem 0 0 10%;
     background:rgb(225, 225, 225);
     vertical-align: bottom;
