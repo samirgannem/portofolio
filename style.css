@@ -12,20 +12,14 @@ body {
 }
 
 .profile {
-    display: flex;
-    height: 5.5rem;
-    padding-top: .5rem;
-    padding-right: 1rem;
-    justify-content: left;
-
+    padding: 1rem 0 1rem 0;
+    justify-content: center;
 }
 
 .tittle {
     color:white;
     display: block;
     text-align: center;
-    margin-top: 0rem;
-    margin-left: 7rem;
     font-size: 1rem;
 }
 
@@ -47,12 +41,11 @@ body {
     font-size: 1rem;
     padding: 0rem;
     background: white;
-    text-align: left;
+    text-align: center;
 }
 
 .text-tittle-projects {
-    font-size: 1rem;
-    padding: 1.5rem 0 0 10%;
+    padding: 1.5rem 0 0 0;
     background:rgb(225, 225, 225);
     vertical-align: bottom;
     border-color: rgba(120, 120, 120);
@@ -75,8 +68,8 @@ body {
 }
 
 .images-properties {
-    width: 16rem;
-    height: 12rem;
+    width: 24rem;
+    height: 18rem;
     border-radius: 0.5rem;
     background:rgb(37, 37, 37,0.5);
     opacity: 0.7;
@@ -92,14 +85,14 @@ body {
 
 .text-tittle-footer {
     font-size: 1rem;
-    padding: 1.5rem 0 0 10%;
+    padding: 1.5rem 0 0 0;
     border-color: rgba(120, 120, 120);
     border-style: outset;
     border-width: 2px;
     border-bottom: none;
     border-left: none;
     border-right: none;
-    text-align: left;
+    text-align: center;
     color: white;
 
 }
@@ -122,26 +115,25 @@ body {
     cursor: pointer;
 }
 
-@media (max-width:725px)  {
+@media (max-width:810px)  {
     html {
         font-size: 87.5%;
     }
 }
 
-@media (max-width:600px)  {
+@media (max-width:720px)  {
     html {
-        font-size: 75%;
+        font-size: 87.5%;
+        flex-wrap: wrap;
+        display:block;
+ 
+    }
+    .images-properties {
+        width: 20rem;
+        height: 15rem;
+    
+    }
+    
     }
 }
 
-@media (max-width:530px)  {
-    html {
-        font-size: 60%;
-    }
-}
-
-@media (max-width:430px)  {
-    html {
-        font-size: 50%;
-    }
-}
