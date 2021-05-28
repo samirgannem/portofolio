@@ -12,7 +12,7 @@ body {
 }
 
 .profile {
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 0rem 0;
     justify-content: center;
 }
 
@@ -23,6 +23,45 @@ body {
     font-size: 1rem;
     font-style: italic;
 }
+
+.bottoms {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:1.5rem;
+    padding-bottom: .25rem;
+}
+
+.btn {
+    border-style: solid;
+    border-color: rgb(39, 38, 38, .5);
+    border-width: 1px;
+    border-radius: .5rem;
+    color:rgb(37, 37, 37);
+    width: 10rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.btn-projects:hover {
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    background:rgb(0, 0, 0, .4)
+
+}
+.btn-skills:hover {
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    background:rgb(0, 0, 0, .4)
+}
+.btn-contact:hover {
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    background:rgb(0, 0, 0, .4)
+}
+
 
 .tittle-projects {
     font-size: 1rem;
@@ -36,7 +75,7 @@ body {
     vertical-align: bottom;
     border-color: rgba(120, 120, 120);
     border-style: outset;
-    border-width: 2px;
+    border-width: 1px;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -133,7 +172,7 @@ body {
     padding: 1.5rem 0 0 0;
     border-color: rgba(120, 120, 120);
     border-style: outset;
-    border-width: 2px;
+    border-width: 1px;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -182,6 +221,67 @@ body {
     transition: .5s;
 }
 
+.line-footer {
+    font-size: 1rem;
+    padding: .5rem 0;
+    border-color: rgba(120, 120, 120);
+    border-style: outset;
+    border-width: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgb(219, 213, 213);
+}
+
+.contact {
+    gap: 3rem;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+
+}
+
+.icon-contact {
+    font-size: 32px;
+}
+
+.fa-github-square:hover {
+    color: #f34f29;
+    transition: .5s;
+    cursor: pointer;    
+}
+.fa-linkedin:hover {
+    color: #0072b1;
+    transition: .5s;
+    cursor: pointer;    
+}
+.fa-whatsapp-square:hover {
+    color: #4fce5d;
+    transition: .5s;
+    cursor: pointer;    
+}
+.fa-facebook-square:hover {
+    color: #4267B2;
+    transition: .5s;
+    cursor: pointer;    
+}
+.fa-instagram-square:hover {
+    color: #8a3ab9;
+    transition: .5s;
+    cursor: pointer;    
+}
+
+.end-footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+    background:rgb(37, 37, 37);
+    font-size: .7rem;
+    padding: .25rem;
+
+
+}
 @media (max-width:810px)  {
     html {
         font-size: 87.5%;
