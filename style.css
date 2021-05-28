@@ -148,7 +148,7 @@ body {
     height: 3.5rem;
     background-color: rgb(39, 38, 38, .6);
     border-radius: .5rem;
-    padding: .25rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: .75rem;
     color: rgb(219, 213, 213);
     text-align: center;
@@ -200,7 +200,11 @@ body {
  
     }
     .images-properties {
-        width: 20rem;
-        height: 15rem;
+        width: 22rem;
+        height: 16.5rem;
     }
+    .project-det {
+        margin-top: 13rem;
+    }
+
 }
