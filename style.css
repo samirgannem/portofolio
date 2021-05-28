@@ -17,7 +17,7 @@ body {
 }
 
 .tittle {
-    color:white;
+    color:rgb(219, 213, 213);
     display: block;
     text-align: center;
     font-size: 1rem;
@@ -73,14 +73,84 @@ body {
     border-radius: 0.5rem;
     background:rgb(37, 37, 37,0.5);
     opacity: 0.7;
+    background-size: contain;
 
 }
 
-.images-properties:hover {
+#image-one {
+    background-image: url("./Assets/pomoveit.png");
+}
+
+#image-one:hover {
+    background-size: cover;
     opacity: 1;
     transition: opacity 0.5s;
     cursor: pointer;
-    transform: rotate3d(1,1,0, -10deg);
+}
+
+#image-two {
+    background-image: url("./Assets/devfinance.png");
+}
+
+#image-two:hover {
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#image-three {
+    background-image: url("./Assets/InformaticaSG.png");
+}
+
+#image-three:hover {
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#image-four {
+    background-image: url("./Assets/testu.png");
+}
+
+#image-four:hover {
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#image-five {
+    background-image: url("./Assets/wsisadm.png");
+}
+
+#image-five:hover {
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+#image-six {
+    background-image: url("./Assets/calendar.png");
+}
+
+#image-six:hover {
+    background-size: cover;
+    opacity: 1;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+.project-det {
+    margin-top: 14.5rem;
+    height: 3.5rem;
+    background-color: rgb(39, 38, 38, .6);
+    border-radius: .5rem;
+    padding: .25rem 1rem;
+    font-size: .75rem;
+    color: rgb(219, 213, 213);
 }
 
 .text-tittle-footer {
@@ -93,7 +163,7 @@ body {
     border-left: none;
     border-right: none;
     text-align: center;
-    color: white;
+    color: rgb(219, 213, 213);
 
 }
 
