@@ -11,8 +11,8 @@
     <link rel="shortcut icon" href="./Assets/favicon.svg" />
 </head>
 <body>
-    <header class=profile>
-        <div class=tittle>
+    <header class=navBar>
+        <div class="tittle">
             <h1>
                 Olá eu sou o Samir Gannem
             </h1>
@@ -20,26 +20,42 @@
                 Analista desenvolvedor - CEO Informática SG
             </h4>
         </div>
-        <div class="bottoms">
-            <a class="btn btn-projects">
-                Projetos
-            </a>
-            <a class="btn btn-skills">
-                Habilidades
-            </a>
-            <a class="btn btn-contact">
+        <div class="buttoms"> 
+            <ul>
+                <li>
+                    <p href="#" class="btn btn-projects">
+                        Projetos
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p href="#" class="btn btn-skills">
+                        Habilidades
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p href="#" class="btn btn-contact">
                 Contato
-            </a>
+                    </p>
+                </li>
+            </ul>
 
-        </div>
+        </div>        
+
+
     </header>
     <main>
-        <div class=tittle-projects>
-            <h3 class=text-tittle-projects>
+
+        <div class="tittle-projects">
+
+            <h3 class="text-tittle-projects">
                 Estes são algums dos meus projetos
             </h3>
         </div>
-        <div class=images-projects>
+        <div class="images-projects">
             <section class="images-properties" id="image-one" alt="projeto pomoveit" onclick="window.open('https://pomoveit-eight.vercel.app');">
                 <h4 class="project-det">
                     Sistema pomodoro com desafios para completar.
@@ -76,7 +92,7 @@
         <h3 class=text-tittle-footer>
             Minhas habilidades
         </h3>        
-        <div class=images-footer>
+        <!-- <div class=images-footer>
             <i class="fab fa-html5 html-icon"></i>
             <i class="fab fa-css3-alt css-icon"></i>
             <i class="fab fa-js js-icon"></i>
@@ -86,7 +102,57 @@
             <img class=images-properties-footer src="./Assets/vb6.png" alt=""/>
             <img class=images-properties-footer src="./Assets/vba.png" alt=""/>
             <img class=images-properties-footer src="./Assets/clipper.png" alt=""/>
+        </div> -->
+        <div class=images-footer>
+            <li>
+                HTML:
+                <span>
+                    É uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto. Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web.
+                </span>
+            </li>
+            <li>
+                CSS:
+                <span>
+                    É a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.
+                </span>
+            </li>
+            <li>
+                JavaScript:
+                <span>
+                    JavaScript: É uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.
+
+                    Com seus scripts é possível incluir, em uma página estática, elementos dinâmicos como mapas, formulários, operações numéricas, animações, infográficos interativos e muito mais.
+                </span>
+            </li>
+            <li>
+                React:
+                <span>
+                    É uma biblioteca JavaScript para a criação de interfaces de usuário — ou UI (user interface).
+                </span>
+            </li>
+            <li>
+                Visual Basic:
+                <span>
+                    O Visual Basic é uma linguagem de programação produzida pela empresa Microsoft, e é parte integrante do pacote Microsoft Visual Studio. Sua versão mais recente faz parte do pacote Visual Studio .NET, voltada para aplicações .Net. Sua versão anterior fez parte do Microsoft Visual Studio 6.0, ainda muito utilizado atualmente.
+                </span>
+            </li>
+            <li>
+                Visual Basic for Applications (VBA):
+                <span>
+                    Permite a criação de macros, e está integrado em todos os produtos da família de produtos Microsoft Office, e também em outros produtos de terceiros tais como Visio (agora pertencente à Microsoft) e WordPerfect Office 2002.
+                </span>
+            </li>
+            <li>
+                Clipper ou CA-Clipper:
+                <span>
+                    É um compilador 16 bits da linguagem xBase para o ambiente DOS. Foi criada em 1984 com o propósito de ser um compilador para o Ashton-Tate dBase, um gerenciador de banco de dados. ela era destinada ao desenvolvimento de aplicações para as plataformas MS-DOS.
+                </span>
+            </li>
+ 
         </div>
+
+
+
         <div class="line-footer">
             <section class="contact">
                 <i class="fab fa-github-square icon-contact" onclick="window.open('https://github.com/samirgannem');"></i>
@@ -99,10 +165,11 @@
         </div>
         <section  class="end-footer">
             <span>
-                Samir Gannem - Portofolio
+                Samir Gannem - Portfólio
             </span>
     </section>
     </footer>
     <script src="https://kit.fontawesome.com/149de7b18d.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>
