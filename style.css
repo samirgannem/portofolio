@@ -64,6 +64,7 @@ body {
     padding: 1rem 0;
     justify-content: center;
     background:var(--for-clear-bg);
+    cursor:default;
 }
 
 ul {
@@ -112,6 +113,7 @@ ul {
     background: white;
     text-align: center;
     padding-top: 1rem;
+    cursor:default;
 
 }
 

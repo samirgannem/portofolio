@@ -2,10 +2,10 @@ const DOMElements = {
     projectsForm: document.querySelector('.tittle-projects'),
   };
 const DOMElements1 = {
-    skillsForm: document.querySelector('.line-footer'),
+    skillsForm: document.querySelector('.text-tittle-footer'),
   };
 const DOMElements2 = {
-    contactForm: document.querySelector('.images-footer'),
+    contactForm: document.querySelector('.line-footer'),
   };
 
 window.addEventListener('click', (e) => {
@@ -47,6 +47,15 @@ window.addEventListener('scroll', (e) => {
   function scrollToContact2(DOMElements2) {
     const { contactForm} = DOMElements2;
     contactForm.scrollIntoView({
+      behavior: 'smooth',
+    });
+  }
+
+
+
+  function scrollToTop(DOMElements) {
+    const { heroContainer } = DOMElements;
+    heroContainer.scrollIntoView({
       behavior: 'smooth',
     });
   }
