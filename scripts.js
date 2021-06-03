@@ -12,7 +12,9 @@ window.addEventListener('click', (e) => {
   const eventTarget = e.target;
 
   if (eventTarget.matches('.btn-projects')) {
-    scrollToContact(DOMElements);
+    // scrollToContact(DOMElements);
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0;
   }
   
   if (eventTarget.matches('.btn-skills')) {
@@ -23,12 +25,6 @@ window.addEventListener('click', (e) => {
     scrollToContact2(DOMElements2);
   }
 });
-
-window.addEventListener('scroll', (e) => {
-  wAppAndNavStyling(DOMElements);
-  handleProgressBar(DOMElements);
-});
-
 
   function scrollToContact(DOMElements) {
     const { projectsForm} = DOMElements;
@@ -60,3 +56,14 @@ window.addEventListener('scroll', (e) => {
     });
   }
 
+      var submitButton = document.getElementById("submit_form");
+      var form = document.getElementById("email_form");
+      form.addEventListener("submit", function (e) {
+
+          setTimeout(function() {
+              submitButton.value = "Enviando...";
+              submitButton.disabled = true;
+          }, 1);
+      });
+
+  

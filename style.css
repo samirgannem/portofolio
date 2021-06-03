@@ -232,24 +232,31 @@ ul {
     text-decoration-line: underline;
     font-weight: 500;
     background: var(--for-clear-bg);
+    cursor: default;
 
 }
 
 .images-footer {
-/*    display:flex;
+    display:flex;
     padding: 1rem;
-    justify-content: space-evenly;*/
+    justify-content: space-evenly;
     padding:2rem;
     text-align: justify;
-    color: rgb(38,38,38)
-    
-
+    color: rgb(38,38,38);
+    cursor: default;
+}
+.images-footer-text {
+        padding:2rem;
+        text-align: justify;
+        color: rgb(38,38,38);
+        cursor: default;    
 }
 .images-footer li {
     font-weight: 500;
 }
 .images-footer span {
-    font-weight: 300; 
+    font-weight: 300;
+
 }
 .images-properties-footer {
     width: 48px;
@@ -304,8 +311,58 @@ ul {
     flex-wrap: wrap;
     display:flex;
     justify-content: center;
+}
+
+.boxContact {
+    display:flex;
+    background: var(--for-clear-bg);
+    justify-content: center;
+    padding-bottom: 1rem;;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .5rem;
+    background: var(--white);
+    width: 50%;
+    border-radius: 3px;
+}
+
+.textBox {
+    border: none;
+    border-radius: 3px;
+    padding: .5rem;
+}
 
 
+.tittleContact {
+    font-size: .9rem;
+
+}
+
+.btn__inputBox{
+    border: none;
+    padding: .5rem;
+    background: var(--for-clear-bg);
+    border-radius: 3px;
+    color: white;
+    width: 8rem;
+    align-self: center;
+}
+.btn__inputBox:hover {
+    color: var(--for-clear-bg);
+    background: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.commentBox {
+    border: none;
+    resize: none;
+    padding: .5rem;
+    border-radius: 3px;
 }
 
 .icon-contact {
@@ -345,6 +402,7 @@ ul {
     background:rgb(37, 37, 37);
     font-size: .7rem;
     padding: .25rem;
+    cursor:default;
 }
 
 @media (max-width:810px)  {
@@ -372,7 +430,7 @@ ul {
 
 
 .navbar {
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
