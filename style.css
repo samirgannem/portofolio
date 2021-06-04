@@ -42,6 +42,20 @@ body {
 
 }
 
+.navbar {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+    background: var(--transparent);
+    width: 100%;
+    transition: all 0.4s;
+    z-index: 10;
+}
+
+
 .buttoms {
     /*flex-direction: line;*/
     margin-top: -1.5rem;
@@ -240,10 +254,11 @@ ul {
     display:flex;
     padding: 1rem;
     justify-content: space-evenly;
-    padding:2rem;
+    padding: 2rem;
     text-align: justify;
     color: rgb(38,38,38);
     cursor: default;
+
 }
 .images-footer-text {
         padding:2rem;
@@ -261,11 +276,10 @@ ul {
 .images-properties-footer {
     width: 48px;
     height: 48px;
-    opacity: .8;
 }
 
 .images-properties-footer:hover {
-    opacity: 1;
+    opacity: .7;
     transition: opacity 0.s;
 }
 
@@ -426,19 +440,5 @@ ul {
         margin-top: 13rem;
     }
 
-}
-
-
-.navbar {
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 35px;
-    background: var(--transparent);
-    width: 100%;
-    transition: all 0.4s;
-    z-index: 10;
 }
    
